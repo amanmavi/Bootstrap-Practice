@@ -1,0 +1,24 @@
+.pic {
+  height: 200px;
+  object-fit: cover;
+  object-position: center bottom;
+}
+.cara-img {
+  height: 200px;
+}
+.user-img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .email-section {
+    width: 40%;
+  }
+  .cara-img {
+    min-height: 600px;
+  }
+  .sign-up-btn {
+    width: 30%;
+  }
+}
